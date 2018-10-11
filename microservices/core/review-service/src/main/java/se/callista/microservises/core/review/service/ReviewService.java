@@ -49,9 +49,9 @@ public class ReviewService {
         sleep(pt);
 
         List<Review> list = new ArrayList<>();
-        list.add(new Review(productId, 1, "Author 1", "Subject 1", "Content 1"));
-        list.add(new Review(productId, 2, "Author 2", "Subject 2", "Content 2"));
-        list.add(new Review(productId, 3, "Author 3", "Subject 3", "Content 3"));
+        list.add(new Review(productId, 1, "Said", "Subject 1", "Content 1"));
+        list.add(new Review(productId, 2, "Karim", "Subject 2", "Content 2"));
+        list.add(new Review(productId, 3, "Marwa", "Subject 3", "Content 3"));
 
         LOG.info("/reviews response size: {}", list.size());
 
