@@ -52,6 +52,7 @@ public class ReviewService {
         list.add(new Review(productId, 1, "Said", "Subject 1", "Content 1"));
         list.add(new Review(productId, 2, "Karim", "Subject 2", "Content 2"));
         list.add(new Review(productId, 3, "Marwa", "Subject 3", "Content 3"));
+        list.add(new Review(productId, 3, "Leila", "Subject 4", "Content 4"));
 
         LOG.info("/reviews response size: {}", list.size());
 
