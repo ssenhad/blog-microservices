@@ -52,14 +52,15 @@ public class ReviewService {
         list.add(new Review(productId, 1, "Said", "Subject 1", "Content 1"));
         list.add(new Review(productId, 2, "Karim", "Subject 2", "Content 2"));
         list.add(new Review(productId, 3, "Marwa", "Subject 3", "Content 3"));
-        list.add(new Review(productId, 3, "Leila", "Subject 4", "Content 4"));
+        list.add(new Review(productId, 4, "Leila", "Subject 4", "Content 4"));
+        list.add(new Review(productId, 5, "nora", "Subject 5", "Content 5"));
 
         LOG.info("/reviews response size: {}", list.size());
 
         return list;
     }
 
-    private void sleep(int pt) {
+            private void sleep(int pt) {
         try {
             Thread.sleep(pt);
         } catch (InterruptedException e) {
